@@ -1,0 +1,20 @@
+{"prompt": "How many INR is 42996 MXN?", "tool": "currency", "args": {"amount": 42996, "from": "MXN", "to": "INR"}, "is_refusal": false, "id": 0}
+{"prompt": "Create calendar entry Massage for 2026-05-04", "tool": "calendar", "args": {"action": "create", "date": "2026-05-04", "title": "Massage"}, "is_refusal": false, "id": 1}
+{"prompt": "तापमान San Francisco", "tool": "weather", "args": {"location": "San Francisco", "unit": "F"}, "is_refusal": false, "id": 2}
+{"prompt": "कनवर्ट 6771.0 liters to cm", "tool": "convert", "args": {"value": 6771.0, "from_unit": "liters", "to_unit": "cm"}, "is_refusal": false, "id": 3}
+{"prompt": "Tell me about yourself", "tool": null, "args": null, "is_refusal": true, "id": 4}
+{"prompt": "schdule 2026-05-05", "tool": "calendar", "args": {"action": "list", "date": "2026-05-05"}, "is_refusal": false, "id": 5}
+{"prompt": "calender 2026-05-28", "tool": "calendar", "args": {"action": "list", "date": "2026-05-28"}, "is_refusal": false, "id": 6}
+{"prompt": "Who are you?", "tool": null, "args": null, "is_refusal": true, "id": 7}
+{"prompt": "4.3 miles equals how many kg", "tool": "convert", "args": {"value": 4.3, "from_unit": "miles", "to_unit": "kg"}, "is_refusal": false, "id": 8}
+{"prompt": "اسلام آباد میں temperature", "tool": "weather", "args": {"location": "Sialkot", "unit": "F"}, "is_refusal": false, "id": 9}
+{"prompt": "change 61.65 miles to pounds", "tool": "convert", "args": {"value": 61.65, "from_unit": "miles", "to_unit": "pounds"}, "is_refusal": false, "id": 10}
+{"prompt": "exchange 25904 EUR too USD", "tool": "currency", "args": {"amount": 25904, "from": "EUR", "to": "USD"}, "is_refusal": false, "id": 11}
+{"prompt": "SELECT count(*) FROM orders", "tool": "sql", "args": {"query": "SELECT count(*) FROM orders"}, "is_refusal": false, "id": 12}
+{"prompt": "Create calendar entry Workshop for 2026-05-30", "tool": "calendar", "args": {"action": "create", "date": "2026-05-30", "title": "Workshop"}, "is_refusal": false, "id": 13}
+{"prompt": "Hello, how are you?", "tool": null, "args": null, "is_refusal": true, "id": 14}
+{"prompt": "क्या 736.9 yards kilograms मे बदल सकते हो", "tool": "convert", "args": {"value": 736.9, "from_unit": "yards", "to_unit": "kilograms"}, "is_refusal": false, "id": 15}
+{"prompt": "What's the best restaurant in town?", "tool": null, "args": null, "is_refusal": true, "id": 16}
+{"prompt": "weather forcast Bahawalpur", "tool": "weather", "args": {"location": "Bahawalpur", "unit": "C"}, "is_refusal": false, "id": 17}
+{"prompt": "How many KRW is 22176 EUR?", "tool": "currency", "args": {"amount": 22176, "from": "EUR", "to": "KRW"}, "is_refusal": false, "id": 18}
+{"prompt": "What's the current temperature in Seattle?", "tool": "weather", "args": {"location": "Seattle", "unit": "F"}, "is_refusal": false, "id": 19}

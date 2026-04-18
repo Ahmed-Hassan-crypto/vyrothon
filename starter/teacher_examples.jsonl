@@ -1,0 +1,21 @@
+{"prompt": "What's the weather in London?", "tool": "weather", "args": {"location": "London", "unit": "C"}, "is_refusal": false}
+{"prompt": "What is the weather like in Paris?", "tool": "weather", "args": {"location": "Paris", "unit": "C"}, "is_refusal": false}
+{"prompt": "Show my calendar for 2026-05-15", "tool": "calendar", "args": {"action": "list", "date": "2026-05-15"}, "is_refusal": false}
+{"prompt": "Add meeting on 2026-06-01", "tool": "calendar", "args": {"action": "create", "date": "2026-06-01", "title": "Meeting"}, "is_refusal": false}
+{"prompt": "Convert 100 meters to feet", "tool": "convert", "args": {"value": 100, "from_unit": "meters", "to_unit": "feet"}, "is_refusal": false}
+{"prompt": "How many pounds is 50 kilograms?", "tool": "convert", "args": {"value": 50, "from_unit": "kilograms", "to_unit": "pounds"}, "is_refusal": false}
+{"prompt": "Convert 100 USD to EUR", "tool": "currency", "args": {"amount": 100, "from": "USD", "to": "EUR"}, "is_refusal": false}
+{"prompt": "How much is 50 euros in pounds?", "tool": "currency", "args": {"amount": 50, "from": "EUR", "to": "GBP"}, "is_refusal": false}
+{"prompt": "List all users", "tool": "sql", "args": {"query": "SELECT * FROM users"}, "is_refusal": false}
+{"prompt": "Show all employees", "tool": "sql", "args": {"query": "SELECT * FROM employees"}, "is_refusal": false}
+{"prompt": "Hello there!", "tool": null, "args": null, "is_refusal": true}
+{"prompt": "How are you doing?", "tool": null, "args": null, "is_refusal": true}
+{"prompt": "What's the weather like today?", "tool": null, "args": null, "is_refusal": true}
+{"prompt": "Convert currency", "tool": null, "args": null, "is_refusal": true}
+{"prompt": "Schedule something", "tool": null, "args": null, "is_refusal": true}
+{"prompt": "Weather in New York in fahrenheit", "tool": "weather", "args": {"location": "New York", "unit": "F"}, "is_refusal": false}
+{"prompt": "Show calendar for 2026-07-04", "tool": "calendar", "args": {"action": "list", "date": "2026-07-04"}, "is_refusal": false}
+{"prompt": "Convert 25 celsius to fahrenheit", "tool": "convert", "args": {"value": 25, "from_unit": "celsius", "to_unit": "fahrenheit"}, "is_refusal": false}
+{"prompt": "Exchange 200 GBP to USD", "tool": "currency", "args": {"amount": 200, "from": "GBP", "to": "USD"}, "is_refusal": false}
+{"prompt": "Query user data", "tool": "sql", "args": {"query": "SELECT * FROM users"}, "is_refusal": false}
+{"prompt": "What do you think about AI?", "tool": null, "args": null, "is_refusal": true}

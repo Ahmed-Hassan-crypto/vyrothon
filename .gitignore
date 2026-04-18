@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+models/_merged_temp/
+*.zip
+.ipynb_checkpoints/
+sample_data/

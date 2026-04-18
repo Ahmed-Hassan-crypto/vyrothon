@@ -1,0 +1,40 @@
+{"prompt": "What's the weather in London?", "tool": "weather", "args": {"location": "London", "unit": "C"}, "is_refusal": false, "id": 1, "slice": "A"}
+{"prompt": "Convert 100 meters to feet", "tool": "convert", "args": {"value": 100, "from_unit": "meters", "to_unit": "feet"}, "is_refusal": false, "id": 2, "slice": "A"}
+{"prompt": "Show my calendar for 2026-05-15", "tool": "calendar", "args": {"action": "list", "date": "2026-05-15"}, "is_refusal": false, "id": 3, "slice": "A"}
+{"prompt": "Convert 50 USD to EUR", "tool": "currency", "args": {"amount": 50, "from": "USD", "to": "EUR"}, "is_refusal": false, "id": 4, "slice": "A"}
+{"prompt": "List all users", "tool": "sql", "args": {"query": "SELECT * FROM users"}, "is_refusal": false, "id": 5, "slice": "A"}
+{"prompt": "What's the temperature in Paris in celsius?", "tool": "weather", "args": {"location": "Paris", "unit": "C"}, "is_refusal": false, "id": 6, "slice": "A"}
+{"prompt": "Add meeting Team Sync on 2026-06-01", "tool": "calendar", "args": {"action": "create", "date": "2026-06-01", "title": "Team Sync"}, "is_refusal": false, "id": 7, "slice": "A"}
+{"prompt": "Weather forecast for Tokyo", "tool": "weather", "args": {"location": "Tokyo", "unit": "C"}, "is_refusal": false, "id": 8, "slice": "A"}
+{"prompt": "Give me the weather report for New York", "tool": "weather", "args": {"location": "New York", "unit": "C"}, "is_refusal": false, "id": 9, "slice": "B"}
+{"prompt": "I need to convert 200 pounds to kilograms", "tool": "convert", "args": {"value": 200, "from_unit": "pounds", "to_unit": "kilograms"}, "is_refusal": false, "id": 10, "slice": "B"}
+{"prompt": "What's on my schedule for 2026-07-20?", "tool": "calendar", "args": {"action": "list", "date": "2026-07-20"}, "is_refusal": false, "id": 11, "slice": "B"}
+{"prompt": "How much is 1000 EUR worth in USD?", "tool": "currency", "args": {"amount": 1000, "from": "EUR", "to": "USD"}, "is_refusal": false, "id": 12, "slice": "B"}
+{"prompt": "Show me all employee records", "tool": "sql", "args": {"query": "SELECT * FROM employees"}, "is_refusal": false, "id": 13, "slice": "B"}
+{"prompt": "Can you tell me the weather in Sydney?", "tool": "weather", "args": {"location": "Sydney", "unit": "C"}, "is_refusal": false, "id": 14, "slice": "B"}
+{"prompt": "wheather in Karachi", "tool": "weather", "args": {"location": "Karachi", "unit": "C"}, "is_refusal": false, "id": 15, "slice": "C"}
+{"prompt": "conver 50 meters to feet", "tool": "convert", "args": {"value": 50, "from_unit": "meters", "to_unit": "feet"}, "is_refusal": false, "id": 16, "slice": "C"}
+{"prompt": "मौसम لاہور میں کیا ہے", "tool": "weather", "args": {"location": "Lahore", "unit": "C"}, "is_refusal": false, "id": 17, "slice": "C"}
+{"prompt": "el clima en Madrid", "tool": "weather", "args": {"location": "Madrid", "unit": "C"}, "is_refusal": false, "id": 18, "slice": "C"}
+{"prompt": "exchange 100 USD to PKR", "tool": "currency", "args": {"amount": 100, "from": "USD", "to": "PKR"}, "is_refusal": false, "id": 19, "slice": "C"}
+{"prompt": "calander 2026-08-15", "tool": "calendar", "args": {"action": "list", "date": "2026-08-15"}, "is_refusal": false, "id": 20, "slice": "C"}
+{"prompt": "What's the temperature in Celsius in Dubai?", "tool": "weather", "args": {"location": "Dubai", "unit": "C"}, "is_refusal": false, "id": 21, "slice": "B"}
+{"prompt": "Convert my 75 kg to pounds please", "tool": "convert", "args": {"value": 75, "from_unit": "kg", "to_unit": "pounds"}, "is_refusal": false, "id": 22, "slice": "B"}
+{"prompt": "How many euros is 250 dollars?", "tool": "currency", "args": {"amount": 250, "from": "USD", "to": "EUR"}, "is_refusal": false, "id": 23, "slice": "B"}
+{"prompt": "Check weather in Islamabad please", "tool": "weather", "args": {"location": "Islamabad", "unit": "C"}, "is_refusal": false, "id": 24, "slice": "B"}
+{"prompt": "wethr in Berlin", "tool": "weather", "args": {"location": "Berlin", "unit": "C"}, "is_refusal": false, "id": 25, "slice": "C"}
+{"prompt": "کرنسی 500 PKR سے USD میں", "tool": "currency", "args": {"amount": 500, "from": "PKR", "to": "USD"}, "is_refusal": false, "id": 26, "slice": "C"}
+{"prompt": "Show calendar for tomorrow", "tool": "calendar", "args": {"action": "list", "date": "2026-04-19"}, "is_refusal": false, "id": 27, "slice": "B"}
+{"prompt": "What's 30 celsius in fahrenheit?", "tool": "convert", "args": {"value": 30, "from_unit": "celsius", "to_unit": "fahrenheit"}, "is_refusal": false, "id": 28, "slice": "A"}
+{"prompt": "List all products from database", "tool": "sql", "args": {"query": "SELECT * FROM products"}, "is_refusal": false, "id": 29, "slice": "A"}
+{"prompt": "Schedule dentist appointment on 2026-05-10", "tool": "calendar", "args": {"action": "create", "date": "2026-05-10", "title": "Dentist"}, "is_refusal": false, "id": 30, "slice": "A"}
+{"prompt": "Hello, how are you?", "tool": null, "args": null, "is_refusal": true, "id": 31, "slice": "D"}
+{"prompt": "What's your name?", "tool": null, "args": null, "is_refusal": true, "id": 32, "slice": "D"}
+{"prompt": "Tell me a joke", "tool": null, "args": null, "is_refusal": true, "id": 33, "slice": "D"}
+{"prompt": "Can you help me with my homework?", "tool": null, "args": null, "is_refusal": true, "id": 34, "slice": "D"}
+{"prompt": "What is 2+2?", "tool": null, "args": null, "is_refusal": true, "id": 35, "slice": "D"}
+{"prompt": "I want to fly to the moon", "tool": null, "args": null, "is_refusal": true, "id": 36, "slice": "D"}
+{"prompt": "Convert currency", "tool": null, "args": null, "is_refusal": true, "id": 37, "slice": "D"}
+{"prompt": "Schedule something", "tool": null, "args": null, "is_refusal": true, "id": 38, "slice": "D"}
+{"prompt": "What's the best movie?", "tool": null, "args": null, "is_refusal": true, "id": 39, "slice": "D"}
+{"prompt": "Are you real?", "tool": null, "args": null, "is_refusal": true, "id": 40, "slice": "D"}

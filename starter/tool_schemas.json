@@ -1,0 +1,104 @@
+{
+  "tools": [
+    {
+      "name": "weather",
+      "description": "Get weather information for a location",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "City name"
+          },
+          "unit": {
+            "type": "string",
+            "enum": ["C", "F"],
+            "description": "Temperature unit: Celsius or Fahrenheit"
+          }
+        },
+        "required": ["location", "unit"]
+      }
+    },
+    {
+      "name": "calendar",
+      "description": "Manage calendar events",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": ["list", "create"],
+            "description": "List or create events"
+          },
+          "date": {
+            "type": "string",
+            "description": "Date in YYYY-MM-DD format"
+          },
+          "title": {
+            "type": "string",
+            "description": "Event title (required for create action)"
+          }
+        },
+        "required": ["action", "date"]
+      }
+    },
+    {
+      "name": "convert",
+      "description": "Convert between units",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number",
+            "description": "The value to convert"
+          },
+          "from_unit": {
+            "type": "string",
+            "description": "Source unit"
+          },
+          "to_unit": {
+            "type": "string",
+            "description": "Target unit"
+          }
+        },
+        "required": ["value", "from_unit", "to_unit"]
+      }
+    },
+    {
+      "name": "currency",
+      "description": "Convert between currencies",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number",
+            "description": "Amount to convert"
+          },
+          "from": {
+            "type": "string",
+            "description": "Source currency ISO code (e.g., USD, EUR)"
+          },
+          "to": {
+            "type": "string",
+            "description": "Target currency ISO code (e.g., USD, EUR)"
+          }
+        },
+        "required": ["amount", "from", "to"]
+      }
+    },
+    {
+      "name": "sql",
+      "description": "Execute SQL queries",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "SQL query string"
+          }
+        },
+        "required": ["query"]
+      }
+    }
+  ]
+}
